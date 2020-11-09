@@ -18,5 +18,6 @@ public class Room implements Search {
 
     public static List<Room> search(RoomStyle style, Date startDate, int duration) {
         // return all rooms with the given style and availability
+        return null;
     }
 }
