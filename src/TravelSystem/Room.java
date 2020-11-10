@@ -1,8 +1,12 @@
 package TravelSystem;
 
+import TravelSystem.EnumPackage.RoomStatus;
+import TravelSystem.EnumPackage.RoomStyle;
+import TravelSystem.POJO.RoomKey;
+
 import java.util.List;
 
-public class Room implements Search {
+public class Room {
     private String roomNumber;
     private RoomStyle style;
     private RoomStatus status;
@@ -11,7 +15,13 @@ public class Room implements Search {
 
     private List<RoomKey> keys;
 
-    public boolean isRoomAvailable(){};
-    public boolean checkIn(){};
-    public boolean checkOut(){};
+    public boolean isRoomAvailable(){
+        return true;
+    };
+    public boolean checkIn(){
+        return false;
+    };
+    public boolean checkOut(){
+        return false;
+    };
 }

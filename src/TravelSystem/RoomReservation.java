@@ -1,9 +1,10 @@
 package TravelSystem;
 
+import TravelSystem.EnumPackage.RoomBookingStatus;
 
 import java.util.Date;
 
-public class RoomBooking {
+public class RoomReservation {
     private String reservationNumber;
     private Date startDate;
     private int durationInDays;
@@ -11,9 +12,11 @@ public class RoomBooking {
     private Date checkin;
     private Date checkout;
 
-    private int guestID;
+    private String customerID;
     private Hotel hotel;
     private Room room;
 
-    public static RoomBooking fectchDetails(String reservationNumber);
+    public static RoomReservation fectchDetails(String reservationNumber) {
+        return null;
+    }
 }

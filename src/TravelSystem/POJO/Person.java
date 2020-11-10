@@ -1,4 +1,7 @@
-package TravelSystem;
+package TravelSystem.POJO;
+
+import TravelSystem.POJO.Account;
+import TravelSystem.POJO.Address;
 
 public class Person {
     private String name;

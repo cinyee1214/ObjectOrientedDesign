@@ -1,4 +1,4 @@
-package TravelSystem;
+package TravelSystem.POJO;
 
 public class Address {
     private String streetAddress;
