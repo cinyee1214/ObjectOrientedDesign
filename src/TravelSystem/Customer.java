@@ -11,7 +11,7 @@ public class Customer extends Person {
     public List<Itinerary> getItineraries() {
         return null;
     }
-    public List<RoomBooking> getBookings() {
+    public List<RoomReservation> getBookings() {
         return null;
     }
 }
